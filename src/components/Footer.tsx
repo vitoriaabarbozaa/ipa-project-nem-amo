@@ -8,8 +8,8 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-3">O Projeto</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link to="/" className="hover:text-primary transition-colors">Sobre o Projeto</Link></li>
-              <li><Link to="/" className="hover:text-primary transition-colors">Beneficiários</Link></li>
+              <li><Link to="/projeto" className="hover:text-primary transition-colors">Sobre o Projeto</Link></li>
+              <li><Link to="/projeto/beneficiarios" className="hover:text-primary transition-colors">Beneficiários</Link></li>
             </ul>
           </div>
 

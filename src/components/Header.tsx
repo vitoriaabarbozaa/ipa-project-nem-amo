@@ -15,7 +15,7 @@ const Header = () => {
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
-          <Link to="/" className="hover:text-primary transition-colors">
+          <Link to="/projeto" className="hover:text-primary transition-colors">
             O Projeto
           </Link>
           <Link to="/sustentabilidade" className="hover:text-primary transition-colors">
@@ -24,7 +24,7 @@ const Header = () => {
           <Link to="/ajuda" className="hover:text-primary transition-colors">
             Ajuda
           </Link>
-          <Link to="/parceiros" className="hover:text-primary transition-colors">
+          <Link to="/projeto/beneficiarios" className="hover:text-primary transition-colors">
             Parceiros
           </Link>
         </nav>
